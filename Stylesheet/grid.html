@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid exampel</title>
+    <style>
+        #parent {
+            display: grid;
+            row-gap: 10px;
+            column-gap: 20px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        #parent div {
+            background: #faa;
+            min-height: calc(100vh - 500px);
+        }
+
+        #child-4 {
+            grid-column: 1 / 3;
+        }
+
+        #child-5 {
+            grid-column-start: 3;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background: #000 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="child-1">Children</div>
+        <div id="child-2">Children</div>
+        <div id="child-3">Children</div>
+        <div id="child-4">Children</div>
+        <div id="child-5">Children5</div>
+        <div id="child-6">Children</div>
+        <div id="child-7">Children</div>
+    </div>
+</body>
+
+</html>

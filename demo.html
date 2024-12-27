@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form demonstration</title>
+  </head>
+  <body>
+    <form>
+      <label for="fName">First Name:</label>
+      <input
+        id="fName"
+        type="text"
+        placeholder="Enter your first name"
+        required
+        name="fName"
+        maxlength="30"
+        value="Anish"
+        disabled
+      /><br /><br />
+      <label for="mName">Middle Name:</label>
+      <input
+        id="mName"
+        type="text"
+        placeholder="Enter your middle name"
+        name="mName"
+      /><br /><br />
+      <label for="lName">Last Name:</label>
+      <input
+        id="lName"
+        type="text"
+        placeholder="Enter your last name"
+        required
+        name="lName"
+      /><br /><br />
+      <label for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        required
+        placeholder="Enter your email"
+        name="email"
+      /><br /><br />
+      <label for="phoneNumber">Phone Number</label>
+      <input
+        id="phoneNumber"
+        type="text"
+        name="phoneNumber"
+        required
+        placeholder="Enter your phone number"
+      /><br /><br />
+      <label>Gender: </label>
+      <input type="radio" name="gender" value="MALE" /><label>Male</label>
+      <input type="radio" name="gender" value="FEMALE" /><label>Female</label
+      ><br /><br />
+      <label for="dob">DOB:</label>
+      <input
+        id="dob"
+        type="date"
+        max="2008-01-01"
+        min="1999-01-01"
+      /><br /><br />
+      <label for="country">Select Country</label>
+      <select id="country" name="country">
+        <option value="NP">Nepal</option>
+        <option value="IND">India</option>
+        <option value="CHN">China</option>
+        <option value="SRL">Srilanka</option>
+        <option value="BHT">Bhutan</option></select
+      ><br /><br />
+      <label for="hobbies"> Hobbies: </label>
+      <input type="checkbox" name="hobbies" value="dancing" /><label
+        >Dancing</label
+      >
+      <input type="checkbox" name="hobbies" value="singing" /><label
+        >Singing</label
+      >
+      <input type="checkbox" name="hobbies" value="reading" /><label
+        >Reading</label
+      >
+      <br /><br />
+      <label>Remarks:</label>
+      <textarea> </textarea><br /><br /><input type="submit" /><input
+        type="reset"
+      />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+Web Basics: Website (Static and Dynamic), Web Application,
+
+HTML: Basic  structure, tags and attributes, text level and block level formatting tags, 
+image, heading, hyperlink, list (ol, ul, dl), table(tr, td, th, colspan, rowspan), form, input types,
+
+
+
+input attributes
+
+type(email, search, url) (datalist)
+id
+class
+name
+placeholder
+value
+readonly 
+disbaled
+maxLength
+min and max

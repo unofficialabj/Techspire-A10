@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Example</title>
+  </head>
+  <body>
+    <h2>Form example</h2>
+    <form action="">
+      <fieldset>
+        <legend>Form example</legend>
+        <label for="username">Username:</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="This is textfield"
+        /><br /><br />
+        <label for="password">Password:</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="This is password field"
+        /><br /><br />
+
+        <input list="datalist" />
+        <datalist id="datalist">
+          <option>Cow</option>
+          <option>Dog</option>
+          <option>BUffalo</option>
+        </datalist>
+        <input type="submit" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
